@@ -51,6 +51,10 @@
 	- Preferably, use "deb http://archive.getdeb.net/ubuntu <your_distrib_name>-getdeb apps", but if you can/want not to use it, simply download the corresponding package from "http://sourceforge.net/projects/pacmanager" for your system and install it.
 
 	- Now you can take a look at your Gnome's menu under "Applications" -> "Internet" -> "PAC", or type "pac" in your terminal.
+	
+	- apt-get install epm libcanberra-gtk-module
+	
+	- cd /opt/pac/lib/ex/vte64/auto/Gnome2/Vte; sudo rm Vte.so
 
 * VERSIONS:
 
